@@ -1,15 +1,17 @@
 # Smart-net-admin-solution
-Controlling internet connection automatically according to specified time of use and data limit
 Controlling internet connection automatically according to specified time of use and data limit.
 This code builds a graphical user interface to easily control internet access. 
+
+# I/O:
 Input taken from user: time limit: (minutes/seconds), Data limit: (Kb/Mb) 
 The window shows Upload speed, Download speed, Spent time, Used amount of data
-Features of the GUI:
+
+# Features of the GUI:
 Once the GUI is started it automatically controls the internet connection and can switch them on/off according to user limit.
 As soon as the limit is reached, the GUI turns off the internet connection with no delay.
-There is a flag that shows the current state of internet accessibility
+There is a flag that shows the current state of internet accessibility.
 
-MATLAB codes: 
+# MATLAB codes: 
 Get_html_data.py: Acquires current internet status of the device and gives feedback.
 Smart_Net.fig: The window of the MATLAB GUI
 Smart_Net.m : The GUI code 
